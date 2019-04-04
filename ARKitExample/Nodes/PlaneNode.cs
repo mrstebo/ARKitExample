@@ -33,7 +33,7 @@ namespace ARKitExample.Nodes
             var topMaterial = new SCNMaterial();
             var bottomMaterial = new SCNMaterial();
 
-            topMaterial.Diffuse.Contents = UIColor.Blue;
+            topMaterial.Diffuse.Contents = UIColor.FromRGBA(255, 255, 255, 20);
             bottomMaterial.Diffuse.Contents = UIColor.Black;
 
             geometry.Materials = new[] { topMaterial, bottomMaterial, bottomMaterial, bottomMaterial };
